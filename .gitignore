@@ -118,9 +118,12 @@ logs
 
 /urlrewrite.php
 
-!/bitrix
 /bitrix/*
 !bitrix/license_key.php
+!/bitrix/php_interface/
+/bitrix/php_interface/*
+!/bitrix/php_interface/migrations/
+!/bitrix/php_interface/migrations.schema/
 
 /.htaccess
 /.htsecure
